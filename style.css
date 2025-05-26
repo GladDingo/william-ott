@@ -1,0 +1,28 @@
+a { 
+  color: #C8102E;
+  text-decoration: none;
+} /* UH red */
+* { font-family: system-ui }
+@media (prefers-color-scheme: dark) {
+  body { background-color: #000000; }
+}
+header {
+  font-size: 5vw;
+}
+
+body {
+  font-size: 175%;
+}
+
+footer { 
+  /*background-color: #960C22; 
+  color: #C8102E;
+  position: fixed;
+  bottom: 0;*/
+  position: relative;
+  max-width: 8.5in;
+  padding-top: 0;
+  margin: 0 auto;
+  text-align: center;
+}
+
