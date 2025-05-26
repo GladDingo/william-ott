@@ -7,7 +7,7 @@ a {
   body { background-color: #000000; }
 }
 header {
-  font-size: 5vw;
+  font-size: 175%;
 }
 
 body {
@@ -19,10 +19,9 @@ footer {
   color: #C8102E;
   position: fixed;
   bottom: 0;*/
-  position: relative;
-  max-width: 8.5in;
-  padding-top: 0;
-  margin: 0 auto;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
   text-align: center;
 }
 
