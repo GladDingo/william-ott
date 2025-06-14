@@ -1,9 +1,18 @@
 * { font-family: system-ui }
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
 body {
   font-size: 175%;
   line-height: 1.6;
   margin: 0;
+  /*margin-bottom: 12%;*/
   text-align: justify;
+  position: relative;
+  padding-bottom: 100px;
 }
 
 ul, ol {
@@ -26,10 +35,14 @@ header {
   font-size: 150%;
   line-height: 1.3;
   text-align: center;
+  position: sticky;
+  top: 0;
 }
 
 nav {
   text-align: center;
+  position: sticky;
+  top: 58px;
 }
 
 h1, h2 {
@@ -46,7 +59,6 @@ q {
 main {
   margin: auto;
   max-width: 1200px;
-  /*margin-left: 350px;*/
 }
 
 aside {
@@ -64,10 +76,10 @@ aside {
 
 footer { 
   background-color: #EEEEEE;
-  /*padding: 5px;*/
-  position: fixed;
-  bottom: 0px;
+  position: absolute;
+  bottom: 0;
   width: 100%;
+  /*height: 12%;*/
   text-align: center;
 }
 
@@ -80,6 +92,4 @@ header, nav, footer {
   body { background-color: #000000; }
   header, nav, footer { background-color: #111111; }
   aside { background-color: #330000; }
-  /*nav { background-color: #111111; }
-  footer { background-color: #111111; }*/
 }
